@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #fff;
+}
+.container {
+  /* padding-top: 115px; */
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+}
+.login_back {
+  width: 100%;
+  height: 100%;
+}
+.login_place {
+  margin-top: -1000rpx;
+}
+.login_place .login_data {
+  padding: 20rpx;
+}
+.login_place .login_data .data_top {
+  display: flex;
+  justify-content: center;
+  padding: 40rpx;
+}
+.login_place .login_data .data_top .finger_print {
+  width: 66rpx;
+  height: 90rpx;
+}
+.login_place .login_data .data_top .login_text {
+  padding: 0 20rpx;
+  line-height: 50rpx;
+}
+.login_place .login_data .data_top .login_text .user_login {
+  font-size: 40rpx;
+  color: #fff;
+}
+.login_place .login_data .data_top .login_text .development_system {
+  font-size: 24rpx;
+  color: #fff;
+}
+.login_place .login_data .login_button {
+  justify-content: center;
+}
+.login_place .login_data .login_button .btn_data {
+  background-color: #ebd3bd;
+  color: #fff;
+  width: 285rpx;
+  border-radius: 50rpx;
+  font-size: 28rpx;
+  border: 1rpx solid #fff;
+  height: 60rpx;
+  line-height: 52rpx;
+}
+.wrapper {
+  position: relative;
+  z-index: 90;
+  background: #fff;
+  padding-bottom: 40rpx;
+}
+.welcome {
+  position: relative;
+  top: -90rpx;
+  text-align: center;
+  font-size: 46rpx;
+  color: #555;
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.3);
+}
+.confirm-btn {
+  width: 630rpx;
+  height: 90rpx;
+  margin-top: 70rpx;
+  background: #c3996b;
+  color: #fff;
+  font-size: 32rpx;
+}
+.confirm-btn:after {
+  border-radius: 100px;
+}
+

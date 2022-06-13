@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.shopDetails {
+  background-color: #f1f1f1;
+}
+.shopDetails .shopTitle {
+  overflow: hidden;
+  padding: 20rpx;
+  height: 125rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.shopDetails .shopTitle .shopData-div {
+  display: flex;
+  align-items: center;
+}
+.shopDetails .shopTitle image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+}
+.shopDetails .shopTitle .shop-display {
+  font-size: 28rpx;
+  padding: 0 15rpx 0 0;
+  width: 250rpx;
+}
+.shopDetails .shopTitle .shop-gradename {
+  font-size: 25rpx;
+  background: #de2d35;
+  color: white;
+  border-radius: 5rpx;
+  padding: 5rpx 10rpx;
+  text-align: center;
+}
+.shopDetails .shopTitle .p {
+  font-size: 28rpx;
+}
+.shopDetails .shopTitle .span {
+  font-size: 20rpx;
+}
+.shopDetails .shopTitle .btn {
+  margin-left: 15rpx;
+  width: 130rpx;
+  height: 50rpx;
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #d02629;
+}
+.shopDetails .description {
+  background-color: #fff;
+  padding: 10rpx 20rpx;
+}
+.shopDetails .description .des-p {
+  line-height: 55rpx;
+}
+.shopDetails .description .des-p .des-span {
+  font-size: 28rpx;
+  margin-right: 70rpx;
+}
+.shopDetails .description .des-p .des-span1 {
+  font-size: 28rpx;
+  color: #CF7171;
+  margin-right: 35rpx;
+}
+.shopDetails .description .des-p .des-span2 {
+  font-size: 28rpx;
+  color: #CF7171;
+}
+.shopDetails .aboutShop {
+  border-top: 1rpx solid #D1D1D1;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.shopDetails .aboutShop .aboutShop-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #D1D1D1;
+  height: 110rpx;
+}
+.shopDetails .aboutShop .aboutShop-li .aboutShop-p {
+  float: left;
+  font-size: 28rpx;
+}
+.shopDetails .aboutShop .aboutShop-li .aboutShop-span {
+  font-size: 28rpx;
+  margin-left: 25rpx;
+  color: #686868;
+}
+

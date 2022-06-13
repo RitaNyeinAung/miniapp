@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.organizationPhotos {
+  background: #f1f1f1;
+  position: absolute;
+}
+.idPhotos {
+  border-bottom: 1rpx solid #fff;
+  padding: 0 27rpx;
+  background-color: #fff;
+}
+.idPhotos .h4 {
+  padding: 30rpx 0 25rpx;
+  color: #BDBDBD;
+  font-size: 32rpx;
+}
+.idPhotos .div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 32rpx;
+  color: #959595;
+}
+.idPhotos .div .div1 {
+  border: 1rpx solid #BDBDBD;
+}
+.idPhotos .div .div1 .ipadImg {
+  width: 300rpx;
+  height: 300rpx;
+}
+.idPhotos .div .div1 .file {
+  width: 100%;
+  height: 100%;
+}
+.idPhotos .div .div1:last-child {
+  border: 1rpx dashed #BDBDBD;
+}
+.idPhotos .p {
+  margin: 30rpx 0 40rpx;
+  font-size: 24rpx;
+  color: #959595;
+  text-align: left;
+}
+.per-center .li {
+  background-color: #fff;
+  border-bottom: 1px solid #F1F1F1;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  padding: 0 20rpx;
+}
+.per-center .li ._span {
+  width: 110px;
+  font-size: 32rpx;
+  color: #BDBDBD;
+}
+.per-center .li input {
+  width: 520rpx;
+  height: 90rpx;
+  border: 0;
+  font-size: 28rpx;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+}
+.per-center .li .div2 {
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  color: #BDBDBD;
+}
+button {
+  margin: 45rpx 20rpx;
+  height: 90rpx;
+  color: #fff;
+  background-color: #d02629;
+  border-radius: 90rpx;
+  border: 0;
+  width: 710rpx;
+  outline: none;
+  font-size: 32rpx;
+}
+

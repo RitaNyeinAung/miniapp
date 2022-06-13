@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.ss-modal-body {
+  box-sizing: border-box;
+  opacity: 0;
+  position: fixed;
+  top: 44px;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  transition: all .2s linear;
+  z-index: 98;
+}
+.ss-modal-body.ss-modal-active {
+  pointer-events: auto;
+  opacity: 1;
+}
+.ss-modal-body .uni-mask {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.ss-modal {
+  position: fixed;
+  z-index: 2;
+  transition: inherit;
+}
+.ss-modal .gmy-float-touch {
+  display: none;
+}
+.ss-modal-middle {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.ss-modal-cover {
+  width: 100%;
+  width: calc(100% + 3px);
+  height: 100%;
+  height: calc(100% + 3px);
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(100%, 0);
+          transform: translate(100%, 0);
+}
+.ss-modal-top {
+  left: 50%;
+  z-index: 98;
+  width: 100%;
+  height: auto;
+  -webkit-transform: translate(-50%, -100%);
+          transform: translate(-50%, -100%);
+}
+.ss-modal-top + .uni-mask {
+  z-index: 97;
+}
+.ss-modal-full {
+  width: 100%;
+  width: calc(100% + 3px);
+  left: 0;
+  -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%);
+}
+.ss-modal-full.ss-modal-top {
+  -webkit-transform: translate(0, -200%);
+          transform: translate(0, -200%);
+}
+.ss-modal-full.ss-modal-bottom {
+  -webkit-transform: translate(0, 100%);
+          transform: translate(0, 100%);
+  transition: inherit;
+}
+.ss-modal-right {
+  right: 0;
+  max-width: 80%;
+}
+.ss-modal-left {
+  left: 0;
+  max-width: 80%;
+}
+.ss-modal-middle.ss-modal-insert {
+  min-width: 380rpx;
+  min-height: 380rpx;
+  max-width: 102%;
+  max-height: 80%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: none;
+  box-shadow: none;
+}
+.ss-modal-body {
+  opacity: 0;
+  pointer-events: none;
+}
+.ss-modal-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.ss-modal-active .ss-modal-top {
+  top: 44px;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.ss-modal-active .ss-modal-full {
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+.ss-modal-active .ss-modal-full.ss-modal-top {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.ss-modal-active .ss-modal-bottom {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.ss-modal-active .ss-modal-cover {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.ss-modal-bottom {
+  bottom: 0;
+}
+

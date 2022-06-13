@@ -1,0 +1,1 @@
+<view><view class="ordinary"><view class="li"><label class="txt">发票抬头：</label><input class="uni-input" type="text" data-event-opts="{{[['input',[['__set_model',['','name','$event',[]]]]]]}}" value="{{name}}" bindinput="__e"/></view></view><view class="footer"><button type="warn" data-event-opts="{{[['tap',[['protact']]]]}}" bindtap="__e">保存</button></view></view>

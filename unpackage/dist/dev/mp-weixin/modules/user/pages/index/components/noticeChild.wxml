@@ -1,0 +1,1 @@
+<view class="NoticeChild"><view class="contentchioce"><view class="title">{{content.title}}</view><view class="body"><rich-text nodes="{{content.content}}"></rich-text></view></view></view>

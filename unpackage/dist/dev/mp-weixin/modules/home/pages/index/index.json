@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "search-header": "/modules/common/components/SearchHeader",
+    "product-carousel": "/modules/home/pages/index/components/ProductCarousel",
+    "quick-start": "/modules/home/pages/index/components/QuickStart",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

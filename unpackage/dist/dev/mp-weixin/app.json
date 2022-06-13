@@ -1,0 +1,171 @@
+{
+  "pages": [
+    "modules/home/pages/index/index",
+    "modules/cart/pages/index/index",
+    "modules/home/pages/userinfo/index",
+    "modules/category/pages/index/index",
+    "modules/category/pages/list/index",
+    "modules/home/pages/index/components/ProductList",
+    "modules/home/pages/search/index",
+    "modules/home/pages/search/SearchStoreGoods",
+    "modules/home/pages/search/Search",
+    "modules/home/pages/search/list"
+  ],
+  "subPackages": [
+    {
+      "root": "modules/service",
+      "pages": [
+        "pages/documents/documents",
+        "pages/documents/child/editOrdinary",
+        "pages/documents/child/addOrdinary",
+        "pages/documents/child/editIncrease",
+        "pages/documents/child/addIncrease",
+        "pages/integral/myIntegral",
+        "pages/integral/index",
+        "pages/integral/integralDetail",
+        "pages/comment/myComment"
+      ],
+      "name": "Service"
+    },
+    {
+      "root": "modules/order",
+      "pages": [
+        "pages/order/orderList",
+        "pages/order/orderDetails",
+        "pages/order/comment",
+        "pages/package/packageOrderList",
+        "pages/package/logistics",
+        "pages/package/packageOrderDetails",
+        "pages/puzzle/puzzleOrder",
+        "pages/puzzle/puzzleOrderDetail",
+        "pages/order/logistics",
+        "pages/integral/integralOrder",
+        "pages/integral/integralOrderDetails"
+      ],
+      "name": "Order"
+    },
+    {
+      "root": "modules/user",
+      "pages": [
+        "pages/index/components/myCollection",
+        "pages/index/components/personalData",
+        "pages/index/components/progressQueery",
+        "pages/index/components/returnRepair",
+        "pages/index/components/settingPage",
+        "pages/index/components/ModifyPhone",
+        "pages/index/components/reset",
+        "pages/index/components/phoneVerify",
+        "pages/index/components/myWallet",
+        "pages/index/components/billingDetails",
+        "pages/index/components/recharge",
+        "pages/index/components/coupon",
+        "pages/index/components/couponsearchList",
+        "pages/index/components/customerService",
+        "pages/index/components/Feedback",
+        "pages/index/components/informOutline",
+        "pages/index/components/Notice",
+        "pages/index/components/noticeChild",
+        "pages/index/components/message",
+        "pages/index/components/agreementDetial",
+        "pages/index/components/description",
+        "pages/index/footPrint",
+        "pages/index/components/addressList",
+        "pages/index/components/addAddress",
+        "pages/index/components/editAddress"
+      ],
+      "name": "User"
+    },
+    {
+      "root": "modules/shopOpen",
+      "pages": [
+        "indexShopOpen",
+        "settledAgreementSuc",
+        "settledAgreement",
+        "companyShop/addInformation",
+        "companyShop/companyPhotos",
+        "companyShop/checkCompanyBankInfor",
+        "companyShop/business",
+        "companyShop/organizationPhotos",
+        "perShop/addInformation",
+        "perShop/proId",
+        "perShop/business"
+      ],
+      "name": "shopOpen"
+    },
+    {
+      "root": "modules/common/pages",
+      "pages": [
+        "productDetail/index",
+        "productDetail/confirmOrder",
+        "productDetail/cashier",
+        "productComment/index",
+        "productConsult/index",
+        "shopCon/shopHome",
+        "shopCon/shopList",
+        "shopCon/shopDetails",
+        "shopCon/shopHomeList",
+        "shopCon/paperwork",
+        "shopCon/shopLevel",
+        "bindPhoneNumber/index",
+        "bindVerificationCode/index",
+        "addNewAddress/index",
+        "list/index",
+        "productFlashDetail/index",
+        "productFlashDetail/confirmFlashOrder",
+        "productIntegralDetail/index",
+        "productIntegralDetail/confirmIntegralOrder",
+        "productIntegralDetail/cashier",
+        "shopCon/child/server",
+        "login/index"
+      ],
+      "name": "common-pages"
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#c3986b",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "modules/home/pages/index/index",
+        "iconPath": "static/images/common/tab_home.png",
+        "selectedIconPath": "static/images/common/tab_home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "modules/category/pages/index/index",
+        "iconPath": "static/images/common/tab_category.png",
+        "selectedIconPath": "static/images/common/tab_category_active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "modules/cart/pages/index/index",
+        "iconPath": "static/images/common/tab_cart.png",
+        "selectedIconPath": "static/images/common/tab_cart_active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "modules/home/pages/userinfo/index",
+        "iconPath": "static/images/common/tab_user.png",
+        "selectedIconPath": "static/images/common/tab_user_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的信息将用于小程序定位"
+    }
+  },
+  "usingComponents": {
+    "login": "/modules/common/components/Login"
+  },
+  "sitemapLocation": "sitemap.json"
+}

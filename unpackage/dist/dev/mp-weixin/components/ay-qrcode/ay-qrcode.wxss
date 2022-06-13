@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.qrcode-box.data-v-1db347e8 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(59, 59, 59, 0.6);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+.qrcode-box .qrcode-item.data-v-1db347e8 {
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+.qrcode-box .qrcode-item .item-box.data-v-1db347e8 {
+  width: 90%;
+  margin: auto;
+  display: inline-block;
+  margin-top: 30%;
+  padding-bottom: 30rpx;
+  background-color: #FFFFFF;
+}
+.qrcode-box .qrcode-item .item-box .title.data-v-1db347e8 {
+  font-size: 46rpx;
+  text-align: center;
+  margin-bottom: 24rpx;
+}
+.qrcode-box .qrcode-item .item-box .canvas.data-v-1db347e8 {
+  margin: auto;
+  display: inline-block;
+  margin: auto;
+}
+.box-qrcode.data-v-1db347e8 {
+  text-align: center;
+  position: relative;
+}
+.box-qrcode .box-img-qrcode.data-v-1db347e8 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+image.data-v-1db347e8 {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+.canvas-qrcode.data-v-1db347e8 {
+  margin: auto;
+  display: inline-block;
+  float: left;
+}
+.opacity-qrcode.data-v-1db347e8 {
+  opacity: 0;
+  display: block;
+}
+.show-qrcode.data-v-1db347e8 {
+  display: block;
+  -webkit-animation: fade-data-v-1db347e8 0.7s;
+          animation: fade-data-v-1db347e8 0.7s;
+}
+.hide-qrcode.data-v-1db347e8 {
+  -webkit-animation: hide-data-v-1db347e8 0.7s;
+          animation: hide-data-v-1db347e8 0.7s;
+}
+@-webkit-keyframes fade-data-v-1db347e8 {
+from {
+    opacity: 0.8;
+}
+to {
+    opacity: 1;
+}
+}
+@keyframes fade-data-v-1db347e8 {
+from {
+    opacity: 0.8;
+}
+to {
+    opacity: 1;
+}
+}
+@-webkit-keyframes hide-data-v-1db347e8 {
+from {
+    opacity: 1;
+}
+to {
+    opacity: 0;
+}
+}
+@keyframes hide-data-v-1db347e8 {
+from {
+    opacity: 1;
+}
+to {
+    opacity: 0;
+}
+}
+

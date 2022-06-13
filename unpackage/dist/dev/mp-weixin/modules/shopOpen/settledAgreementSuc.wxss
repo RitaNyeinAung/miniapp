@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.settled {
+  background: #f1f1f1;
+  height: 100%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .agreementSuc {
+  width: 142rpx;
+  height: 142rpx;
+  margin-top: 50rpx;
+}
+.box ._h4 {
+  color: #333333;
+  font-size: 36rpx;
+  margin: 25rpx 0 40rpx;
+  font-weight: 600;
+}
+.box .p {
+  color: #989898;
+  font-size: 28rpx;
+  padding: 0 30rpx;
+  line-height: 36rpx;
+}
+.box .btn1 {
+  margin-top: 245rpx;
+}
+.box .btn2 {
+  margin-top: 20rpx;
+}
+.shopIn {
+  color: #0479C6;
+  font-size: 28rpx;
+  padding: 10rpx;
+}
+.btnOk {
+  margin-top: 80rpx;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d02629;
+  color: #fff;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  width: 710rpx;
+  height: 90rpx;
+  border: 0;
+  border-radius: 90rpx;
+  text-align: center;
+}
+.btnNo {
+  margin-top: 80rpx;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #B6B4B5;
+  color: #fff;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  width: 710rpx;
+  height: 90rpx;
+  border: 0;
+  border-radius: 90rpx;
+  text-align: center;
+}
+

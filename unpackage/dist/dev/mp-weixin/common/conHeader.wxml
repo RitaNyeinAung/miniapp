@@ -1,0 +1,1 @@
+<view><view class="hd1 clearfix"><view class="title fl">{{text+''}}<block wx:if="{{prompt}}"><text class="colorr">{{prompt}}</text></block></view></view></view>

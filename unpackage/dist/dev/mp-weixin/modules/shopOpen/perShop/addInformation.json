@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "填写入驻资料",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "con-header": "/common/conHeader"
+  }
+}

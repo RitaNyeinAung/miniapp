@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.Notice {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+.Notice .blank {
+  background-color: #f1f1f1;
+  border-top: 2rpx solid #f1f1f1;
+}
+.Notice .content-wrap {
+  display: flex;
+  background: #fff;
+  padding: 25rpx 20rpx;
+  margin: 20rpx;
+  border-radius: 10rpx;
+}
+.Notice .content-wrap .title {
+  font-size: 32rpx;
+  width: 310rpx;
+  padding: 0 0rpx 0 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-height: 50rpx;
+}
+.Notice .content-wrap .img {
+  width: 53rpx;
+  height: 53rpx;
+}
+.Notice .content-wrap .create {
+  font-size: 32rpx;
+  line-height: 50rpx;
+}
+

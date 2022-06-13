@@ -1,0 +1,1 @@
+<view class="agreementDetial"><view class="contentchioce"><view class="title">{{text}}</view><view class="body">{{content}}</view></view></view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "shop-header": "/modules/common/pages/shopCon/child/shopHeader",
+    "tab-header": "/modules/common/pages/shopCon/child/tabHeader",
+    "article-flash": "/modules/common/pages/shopCon/child/articleFlash",
+    "article-list": "/modules/common/pages/shopCon/child/articleList",
+    "shop-details": "/modules/common/pages/shopCon/shopDetails"
+  }
+}

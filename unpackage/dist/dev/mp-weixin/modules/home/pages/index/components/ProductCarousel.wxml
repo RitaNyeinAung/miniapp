@@ -1,0 +1,1 @@
+<view class="product-carousel"><u-swiper class="u-skeleton u-skeleton-rect" vue-id="b48a7044-1" border-radius="20" height="320" list="{{list}}" bg-color="#fdfdfd" bind:__l="__l"></u-swiper><block wx:if="{{list.length<=0}}"><u-skeleton vue-id="b48a7044-2" border-radius="20" loading="{{true}}" animation="{{true}}" bg-color="#ffffff" bind:__l="__l"></u-skeleton></block></view>

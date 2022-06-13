@@ -1,0 +1,1 @@
+<view class="search"><view class="{{['search-page']}}"><view class="search-page-header"><u-search vue-id="78c10be7-1" height="60" focus="{{true}}" placeholder="搜索宝贝,店铺..." action-text="取消" data-event-opts="{{[['^click',[['remove']]]]}}" bind:click="__e" bind:__l="__l"></u-search></view><view class="hot-search"><text class="content"></text></view></view></view>

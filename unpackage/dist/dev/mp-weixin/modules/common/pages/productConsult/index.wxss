@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.consult {
+  position: relative;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+.consult-box {
+  padding: 20rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: white;
+  margin-bottom: 10rpx;
+}
+.consult-box .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20rpx;
+  width: 100%;
+}
+.consult-box .question {
+  font-weight: bold;
+  font-size: 11px;
+  margin-bottom: 15rpx;
+  display: flex;
+}
+.consult-box .question .question-icon {
+  font-weight: normal;
+  padding: 10rpx;
+  font-size: 6px;
+  border-radius: 50%;
+  color: white;
+  background: linear-gradient(to right, blue, lightblue);
+  margin-right: 20rpx;
+}
+.consult-box .answer {
+  font-size: 10px;
+  display: flex;
+}
+.consult-box .answer .answer-icon {
+  font-weight: normal;
+  padding: 10rpx;
+  border-radius: 5px;
+  font-size: 6px;
+  color: white;
+  background: linear-gradient(to right, blue, lightblue);
+  margin-right: 20rpx;
+}
+.eva-box {
+  display: flex;
+  padding: 20rpx 0;
+}
+.eva-box .portrait {
+  flex-shrink: 0;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100px;
+  background-color: #f8f8f8;
+}
+.eva-box .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+  color: #606266;
+  padding-left: 26rpx;
+}
+.eva-box .right .con {
+  font-size: 28rpx;
+  color: #303133;
+  padding: 20rpx 0;
+}
+.eva-box .right .bot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #909399;
+}
+.eva-box .empty {
+  flex: 1;
+  text-align: center;
+}
+.question-input {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  bottom: 0;
+  background-color: white;
+  padding: 20rpx;
+}
+.question-input .input {
+  border-radius: 50px;
+  background-color: #f8f8f8;
+  padding: 0rpx 20rpx;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.question-input .btn {
+  color: white;
+  border-radius: 50px;
+  width: 20%;
+}
+

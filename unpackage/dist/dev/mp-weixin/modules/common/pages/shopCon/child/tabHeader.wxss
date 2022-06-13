@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.tab-header .content {
+  background-color: #fff;
+  display: flex;
+  border-bottom: 1rpx solid #CBCBCB;
+  position: relative;
+}
+.tab-header .content .txt {
+  display: flex;
+  height: 50rpx;
+  margin: 20rpx 0;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border-right: 1rpx solid #CBCBCB;
+  font-size: 26rpx;
+}
+.tab-header .content .txt:last-child {
+  border: 0;
+}
+.tab-header .content .active {
+  color: #d02629;
+  font-size: 26rpx;
+}
+

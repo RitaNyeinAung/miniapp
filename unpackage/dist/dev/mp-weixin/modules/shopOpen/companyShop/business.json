@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "填写入驻资料-企业",
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

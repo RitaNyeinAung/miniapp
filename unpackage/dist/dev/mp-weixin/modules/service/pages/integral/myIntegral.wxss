@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.integralDetail {
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  width: 100%;
+  background-color: #2b2b2b;
+  position: relative;
+}
+.header .date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.header .date view {
+  display: flex;
+  align-items: flex-end;
+}
+.header .date view text {
+  width: 50px;
+  color: white;
+}
+.header .date view image {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  margin-left: -5px;
+}
+.header .more {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.header .more view {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+}
+.header .more view text {
+  width: 50px;
+  color: white;
+}
+.header .more view image {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.header .integral {
+  color: #ffe169;
+  font-size: 40px;
+}
+.header .integral text {
+  color: white;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.tab {
+  width: 100%;
+  background: white;
+  padding-bottom: 5rpx;
+  height: 85rpx;
+}
+.tab .income {
+  background: #fff;
+  float: left;
+  text-align: center;
+  padding: 2rpx 0;
+  width: 50%;
+}
+.tab .income .plu {
+  height: 50rpx;
+  font-size: 28rpx;
+}
+.tab .income .txt {
+  font-size: 28rpx;
+  height: 30rpx;
+  line-height: 4rpx;
+}
+.tab .exepen {
+  padding: 2rpx 0;
+  background: #fff;
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+.tab .exepen .min {
+  height: 50rpx;
+  font-size: 28rpx;
+}
+.tab .exepen .text {
+  font-size: 28rpx;
+  height: 30rpx;
+  line-height: 4rpx;
+}
+.tab .active {
+  color: #d02629;
+  border-bottom: 3rpx solid #d02629;
+}
+.uni-row {
+  display: flex;
+  flex-direction: row;
+}
+.uni-row .flex-item {
+  width: 33.3%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.uni-common-mt {
+  position: fixed;
+  bottom: 3px;
+  width: 100%;
+}
+

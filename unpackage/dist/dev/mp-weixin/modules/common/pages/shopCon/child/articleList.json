@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "particle": "/modules/common/pages/shopCon/child/Particle"
+  }
+}

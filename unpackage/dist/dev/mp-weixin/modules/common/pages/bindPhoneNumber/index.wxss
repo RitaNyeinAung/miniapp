@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.wrap {
+  font-size: 28rpx;
+}
+.wrap .content {
+  margin: 80rpx 50rpx;
+}
+.wrap .content .title {
+  text-align: left;
+  font-size: 60rpx;
+  font-weight: 500;
+  margin-bottom: 100rpx;
+}
+.wrap .content input {
+  text-align: left;
+  padding: 15rpx;
+}
+.wrap .content .getCaptcha {
+  background-color: rgba(195, 153, 107, 0.3);
+  color: #909399;
+  border: none;
+  font-size: 30rpx;
+  margin-top: 50px;
+}
+.wrap .content .getCaptcha::after {
+  border: none;
+}
+.wrap .content .alternative {
+  color: #909399;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.wrap .buttom .loginType {
+  display: flex;
+  padding: 350rpx 150rpx 150rpx 150rpx;
+  justify-content: space-between;
+}
+.wrap .buttom .loginType .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #606266;
+  font-size: 28rpx;
+}
+.wrap .buttom .hint {
+  padding: 20rpx 40rpx;
+  font-size: 20rpx;
+  color: #909399;
+}
+.wrap .buttom .hint .link {
+  color: #ff9900;
+}
+

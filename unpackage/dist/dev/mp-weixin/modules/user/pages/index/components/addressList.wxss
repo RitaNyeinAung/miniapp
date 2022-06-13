@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.address-list {
+  height: 1087rpx;
+  margin-bottom: 20rpx;
+  overflow: auto;
+  background-color: #f8f8f8;
+}
+.message {
+  color: red;
+  font-size: 30rpx;
+}
+.inf-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px 0px 10px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.inf-header .btnright {
+  width: 6px;
+  height: 10px;
+  margin-right: 10px;
+}
+.inf-header .bottom-img {
+  position: absolute;
+  bottom: 0px;
+  height: 4px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+.inf-header .title {
+  margin: 15px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inf-header .title .inf-name {
+  display: flex;
+  flex-direction: column;
+}
+.inf-header .title .inf-name .name {
+  padding-bottom: 5px;
+}
+.inf-header .title .address {
+  color: #606266;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.inf-header .title .address .add {
+  padding-top: 5px;
+  color: #909399;
+}
+.inf-header .title .address .add .mini-btn {
+  background-color: red;
+  color: white;
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 85rpx;
+  padding: 0;
+  margin-left: 20rpx;
+}
+

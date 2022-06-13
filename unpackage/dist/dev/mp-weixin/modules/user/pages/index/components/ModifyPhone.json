@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "修改手机号绑定",
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input"
+  }
+}

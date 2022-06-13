@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "填写入驻资料",
+  "usingComponents": {
+    "con-header": "/common/conHeader"
+  }
+}

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.shopLists {
+  background-color: #f1f1f1;
+}
+.shopLists .lit-ul {
+  overflow: hidden;
+}
+.shopLists .lit-ul .header {
+  margin: 20rpx 0;
+  border: 1rpx solid #EEEEEE;
+  padding: 0 25rpx;
+  height: 90rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.shopLists .lit-ul .header .lit-txt {
+  font-size: 28rpx;
+}
+.shopLists .lit-ul .header image {
+  width: 15rpx;
+  height: 25rpx;
+}
+.shopLists .lit-ul u-icon {
+  display: none;
+}
+.shopLists .lit-ul .u-collapse-head {
+  border-top: 2rpx solid #f1f1f1;
+  line-height: 2;
+  padding: 0;
+}
+.shopLists .lit-ul .shoplevel-coll {
+  background-color: #fff;
+}
+.shopLists .lit-ul .shoplevel-item {
+  border-bottom: 2rpx solid #EEEEEE;
+}
+.shopLists .lit-ul .first {
+  padding: 25rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+}
+.shopLists .lit-ul .first .shoplevel1-name {
+  font-size: 28rpx;
+}
+.shopLists .lit-ul .first .shoplevel1-img {
+  width: 15rpx;
+  height: 25rpx;
+  margin: 0 0 0 auto;
+}
+.shopLists .lit-ul .second {
+  padding: 25rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.shopLists .lit-ul .second .shoplevel2-name {
+  font-size: 28rpx;
+  padding: 0 0 0 50rpx;
+}
+.shopLists .lit-ul .second .shoplevel2-img {
+  width: 15rpx;
+  height: 25rpx;
+}
+.shopLists .lit-ul .third {
+  padding: 25rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.shopLists .lit-ul .third .shoplevel3-name {
+  font-size: 28rpx;
+  padding: 0 0 0 100rpx;
+}
+.shopLists .lit-ul .third .shoplevel3-img {
+  width: 15rpx;
+  height: 25rpx;
+}
+

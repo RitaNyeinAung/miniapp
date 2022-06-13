@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.black {
+  background-color: #f1f1f1;
+  padding: 20rpx;
+}
+.cashier {
+  background-color: #fff;
+  border-top: 1rpx solid #f1f1f1;
+}
+.cashier .cashier-view {
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.cashier .cashier-view .title {
+  font-size: 30rpx;
+  color: #333;
+}
+.cashier .cashier-view .num {
+  font-size: 28rpx;
+  color: #999;
+}
+.cashier .cashier-view .pri {
+  font-size: 28rpx;
+  color: #f23030;
+}
+.payment {
+  background-color: #fff;
+}
+.payment .paytit {
+  padding: 0 20rpx;
+  font-size: 30rpx;
+  color: #333;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+.payment .paytype {
+  padding: 0 20rpx;
+}
+.payment .payment-view {
+  padding: 20rpx 20rpx 20rpx 0rpx;
+  margin: 0px 10px 0px 5px;
+  border-radius: 5px;
+  border-bottom: 1rpx solid #f1f1f1;
+  height: 120rpx;
+  line-height: 100rpx;
+}
+.payment .payment-view image {
+  width: 83rpx;
+  height: 83rpx;
+  float: left;
+}
+.payment .payment-view .ptitle {
+  font-size: 30rpx;
+  color: #333;
+  padding-left: 30rpx;
+  float: left;
+  line-height: 80rpx;
+}
+.payment .payment-view .bal {
+  font-size: 28rpx;
+  color: #999;
+  padding-left: 30rpx;
+  float: left;
+  line-height: 80rpx;
+}
+.payment .payment-view .check {
+  font-size: 28rpx;
+  float: right;
+  margin-top: 20rpx;
+}
+.okbtn {
+  width: 80%;
+  margin: 10px auto;
+  height: 100rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  font-size: 25rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background: #c3996b;
+  color: #ffffff;
+  position: absolute;
+  border-radius: 50px;
+  bottom: 10px;
+}
+.popup_div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.popup_div .popup_box {
+  position: absolute;
+  height: 400rpx;
+  width: 700rpx;
+  margin-left: 25rpx;
+  top: 410rpx;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  border-radius: 20rpx;
+}
+.popup_div .popup_box .box_cross {
+  position: absolute;
+  right: 3%;
+  top: 15rpx;
+  width: 40rpx;
+  line-height: 34rpx;
+  height: 40rpx;
+  border: 2rpx solid #bfbfbf;
+  text-align: center;
+  font-size: 40rpx;
+  color: #bfbfbf;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.popup_div .popup_box .password_div {
+  padding: 90rpx 35rpx 10rpx 35rpx;
+  display: flex;
+}
+.popup_div .popup_box .password_div .password_text {
+  padding-top: 30rpx;
+  font-size: 30rpx;
+  width: 160rpx;
+}
+.popup_div .popup_box .password_div .input_box {
+  float: right;
+  margin-top: 13rpx;
+}
+.popup_div .popup_box .time_message {
+  margin: 40rpx 0 0 200rpx;
+  color: red;
+}
+.popup_div .popup_box .next_button {
+  cursor: pointer;
+  border-radius: 10rpx;
+  width: 230rpx;
+  height: 80rpx;
+  background: #67C23A;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 30rpx;
+  margin: 30rpx 0 0 194rpx;
+  border: none;
+}
+

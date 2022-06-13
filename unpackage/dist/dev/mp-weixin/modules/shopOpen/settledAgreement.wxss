@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.box .blank {
+  background-color: #f1f1f1;
+  border-top: 2rpx solid #f1f1f1;
+}
+.box .boxChild {
+  padding: 10rpx 25rpx;
+  background-color: #fff;
+}
+.box .boxChild .h4 {
+  font-size: 34rpx;
+  padding: 20rpx 10rpx;
+}
+.box .boxChild .title-header {
+  font-size: 30rpx;
+  line-height: 120%;
+  color: #545454;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.rightImg {
+  width: 20rpx;
+  height: 27rpx;
+  margin: 0 10rpx;
+}
+._header {
+  background-color: #F8F8F8;
+  height: 90rpx;
+  display: flex;
+  padding: 0 30rpx;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+}
+._header view {
+  font-size: 36rpx;
+}
+.okPng {
+  width: 50rpx;
+  height: 50rpx;
+}
+.noPng {
+  width: 46rpx;
+  height: 46rpx;
+  border-radius: 50%;
+  border: 1px solid #CDCDCD;
+}
+.btnOk {
+  margin-top: 80rpx;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d02629;
+  color: #fff;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  width: 710rpx;
+  height: 90rpx;
+  border: 0;
+  border-radius: 90rpx;
+  text-align: center;
+}
+.btnNo {
+  margin-top: 80rpx;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #B6B4B5;
+  color: #fff;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  width: 710rpx;
+  height: 90rpx;
+  border: 0;
+  border-radius: 90rpx;
+  text-align: center;
+}
+

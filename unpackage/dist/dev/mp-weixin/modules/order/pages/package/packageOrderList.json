@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "套餐订单",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

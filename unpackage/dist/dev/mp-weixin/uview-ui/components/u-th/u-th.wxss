@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.u-th.data-v-070b0340 {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #303133;
+  font-weight: bold;
+  background-color: #f5f6f8;
+}
+

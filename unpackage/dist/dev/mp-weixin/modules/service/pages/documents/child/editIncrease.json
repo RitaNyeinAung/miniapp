@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "修改我的增值发票",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

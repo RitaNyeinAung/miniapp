@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.rech-amount {
+  border-bottom: 2rpx solid #dfdfdd;
+  border-top: 2rpx solid #dfdfdd;
+  padding: 30rpx 20rpx;
+  background: #fff;
+  display: flex;
+}
+.rech-amount .title {
+  font-size: 32rpx;
+  color: #333;
+  width: 200rpx;
+  line-height: 70rpx;
+}
+.rech-amount .input {
+  width: 510rpx;
+  border: none;
+  text-indent: 40rpx;
+  font-size: 32rpx;
+  outline: none;
+}
+.paymentDiv {
+  display: flex;
+  padding: 30rpx 20rpx;
+  border-bottom: 2rpx solid #dfdfdd;
+}
+.paymentDiv .paylogo {
+  width: 83rpx;
+  height: 83rpx;
+}
+.paymentDiv .paytitle {
+  font-size: 32rpx;
+  color: #333;
+  padding: 20rpx 0 0 30rpx;
+  width: 600rpx;
+}
+.paymentDiv .paybtn {
+  width: 25rpx;
+  height: 30rpx;
+  margin: 23rpx 0 0 0;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "店铺详情",
+  "usingComponents": {
+    "tab-header": "/modules/common/pages/shopCon/child/tabHeader",
+    "ay-qrcode": "/components/ay-qrcode/ay-qrcode"
+  }
+}

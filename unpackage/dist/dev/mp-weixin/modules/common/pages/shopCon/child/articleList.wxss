@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.articleLit .recommendList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.articleLit .recommendList .bttom {
+  width: 100%;
+  display: flex;
+  margin: 30rpx 0 0 0;
+  justify-content: center;
+}
+.articleLit .recommendList .recommendList-li {
+  margin-top: 2%;
+  background-color: #fff;
+  width: 49%;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.articleLit .recommendList .recommendList-li image {
+  width: 100%;
+  height: 350rpx;
+  align-self: center;
+  border-bottom: 1rpx solid #f2f1f2;
+}
+.articleLit .recommendList .recommendList-li .recommend-txt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 15rpx 25rpx;
+  font-size: 28rpx;
+}
+.articleLit .recommendList .recommendList-li .more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50rpx;
+}
+.articleLit .recommendList .recommendList-li .more .more-txt {
+  padding: 0 25rpx;
+  font-size: 28rpx;
+  color: #d12f2d;
+}
+.articleLit .recommendList .recommendList-li .more .r {
+  padding: 0 25rpx;
+  font-size: 28rpx;
+  color: #d12f2d;
+}
+.articleLit .shopList .bland {
+  background-color: #f1f1f1;
+  padding: 10rpx 0;
+}
+.articleLit .shopList .main-bg {
+  background-color: #f1f1f1;
+}
+.articleLit .shopList .contentt {
+  background-color: #fff;
+  display: flex;
+  border-bottom: 1rpx solid #CBCBCB;
+  position: relative;
+}
+.articleLit .shopList .contentt .content-li {
+  display: flex;
+  height: 50rpx;
+  margin: 20rpx 0;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border-right: 1rpx solid #CBCBCB;
+  font-size: 26rpx;
+  padding: 0rpx;
+}
+.articleLit .shopList .contentt .content-li:last-child {
+  border: 0;
+}
+.articleLit .shopList .contentt .contentLi {
+  color: #d02629;
+  font-size: 26rpx;
+}
+.articleLit .shopList .bigBox {
+  padding-left: 40rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+.articleLit .shopList .bigBox .times {
+  display: flex;
+  padding-top: 40rpx;
+  align-items: center;
+}
+.articleLit .shopList .bigBox .times image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.articleLit .shopList .bigBox .times .times-txt {
+  font-size: 28rpx;
+}
+.articleLit .shopList .times {
+  display: flex;
+  padding-top: 10rpx;
+  align-items: center;
+}
+.articleLit .shopList .times image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.articleLit .shopList .times .times-txt {
+  font-size: 28rpx;
+}
+.articleLit .shopList .newtitle {
+  margin: 35rpx 0 20rpx;
+  display: flex;
+  align-items: center;
+}
+.articleLit .shopList .newtitle .title {
+  margin-right: 20rpx;
+  display: flex;
+  width: 90rpx;
+  height: 40rpx;
+  border: 3rpx solid #46e26e;
+  color: #46e26e;
+  border-radius: 40rpx;
+  justify-content: center;
+  align-items: center;
+}
+.articleLit .shopList .newtitle .newtitle-txt {
+  font-size: 28rpx;
+}
+.articleLit .shopList .newtitle .newtitle-good {
+  background-color: #3b3b3b;
+  color: #fff;
+  padding: 5rpx;
+  border-radius: 5rpx;
+}
+.articleLit .shopList .newtitle .miaosha {
+  border: 3rpx solid #d02629;
+  color: #d02629;
+}
+.articleLit .shopList .newCon {
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding: 35rpx 25rpx 30rpx;
+}
+.articleLit .shopList .newCon .content1 {
+  margin-bottom: 20rpx;
+  display: flex;
+}
+.articleLit .shopList .newCon .content1 image {
+  width: 225rpx;
+  height: 225rpx;
+}
+.articleLit .shopList .newCon .content1 .newCon-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 50rpx 50rpx 30rpx;
+}
+.articleLit .shopList .newCon .content1 .newCon-div .newCon-title {
+  font-size: 24rpx;
+  color: #909090;
+  margin-top: 10rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal !important;
+  display: -webkit-box;
+  word-wrap: break-word;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.articleLit .shopList .newCon .content1 .newCon-div .newCon-price {
+  font-size: 32rpx;
+  color: #333;
+}
+.articleLit .shopList .newCon .content2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.articleLit .shopList .newCon .content2 .content2-li {
+  position: relative;
+}
+.articleLit .shopList .newCon .content2 .content2-li image {
+  width: 225rpx;
+  height: 225rpx;
+  margin-right: 5rpx;
+  margin-bottom: 10rpx;
+}
+.articleLit .shopList .newCon .content2 .content2-li .content2-price {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.4);
+  bottom: 10rpx;
+  width: 225rpx;
+  height: 50rpx;
+  font-size: 28rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+.articleLit .shopList .newCon .content3 {
+  margin-bottom: 20rpx;
+  display: flex;
+}
+.articleLit .shopList .newCon .content3 .good-img {
+  width: 275rpx;
+  height: 225rpx;
+}
+.articleLit .shopList .newCon .content3 .newCon-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 50rpx 50rpx 30rpx;
+}
+.articleLit .shopList .newCon .content3 .newCon-div .newCon-title {
+  font-size: 24rpx;
+  width: 405rpx;
+  color: #909090;
+  margin-top: 10rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal !important;
+  display: -webkit-box;
+  word-wrap: break-word;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.articleLit .shopList .newCon .content3 .newCon-div .newCon-price {
+  font-size: 32rpx;
+  color: #333;
+}
+

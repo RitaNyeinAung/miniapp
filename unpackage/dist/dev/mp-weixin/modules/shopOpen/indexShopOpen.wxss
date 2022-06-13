@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.open {
+  border-top: 2rpx solid #f1f1f1;
+}
+.icon {
+  height: 440rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon image {
+  width: 260rpx;
+  height: 260rpx;
+}
+.button {
+  width: 710rpx;
+  margin: 0 20rpx;
+  height: 90rpx;
+  background-color: #BABABA;
+  border-radius: 90rpx;
+  border: 0;
+  margin-top: 20rpx;
+  color: #fff;
+  font-size: 28rpx;
+  line-height: 90rpx;
+  text-align: center;
+}
+.btn {
+  background-color: #d02629;
+  width: 710rpx;
+  margin: 0 20rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+  border: 0;
+  margin-top: 20rpx;
+  color: #fff;
+  font-size: 28rpx;
+  line-height: 90rpx;
+  text-align: center;
+}
+

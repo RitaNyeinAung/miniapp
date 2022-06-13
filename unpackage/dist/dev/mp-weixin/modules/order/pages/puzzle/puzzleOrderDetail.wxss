@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.orderDetail {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+.headers {
+  background: #ffa136;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200rpx;
+}
+.headers .p_title {
+  font-size: 30rpx;
+  color: #fff;
+  margin: 20rpx;
+}
+.headers .p_desc {
+  font-size: 20rpx;
+  color: #fff;
+  margin: 20rpx;
+}
+.headers image {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+}
+.address {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0 20rpx;
+  background: #fff;
+  padding-bottom: 30rpx;
+}
+.address .divleft {
+  display: flex;
+  flex-direction: row;
+}
+.address .divleft image {
+  margin-top: 30rpx;
+  height: 50rpx;
+  width: 40rpx;
+}
+.address .divleft .info {
+  margin-left: 20rpx;
+}
+.address .divleft .info .detail {
+  display: flex;
+  padding: 20rpx 0;
+}
+.address .divleft .info .detail .name {
+  font-size: 25rpx;
+}
+.address .divleft .info .detail .phone {
+  padding-left: 20rpx;
+  font-size: 25rpx;
+}
+.address .divleft .info .detail .addr {
+  padding-bottom: 20rpx;
+}
+.address .btn {
+  font-size: 30rpx;
+  border: 1rpx solid #ffa136;
+  border-radius: 10rpx;
+  text-align: center;
+  color: #ffa136;
+  line-height: 50rpx;
+  height: auto;
+  width: 100rpx;
+  margin-top: 30rpx;
+  background: #fff;
+}
+.pin {
+  display: flex;
+  flex-direction: row;
+}
+.pin .p {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.pin .p .l {
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.pin .p .l image {
+  padding: 10rpx 10rpx;
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+.pin .p .l .name {
+  padding: 0 20rpx;
+  font-size: 30rpx;
+}
+.pin .p .r {
+  padding: 0 20rpx;
+  color: #ffa136;
+  font-size: 30rpx;
+}
+.pin .pr {
+  background: white;
+  width: 50rpx;
+  margin-top: 20rpx;
+  /* justify-content: center;
+		align-items: center;*/
+}
+.pin .pr .rjt {
+  display: inline-block;
+  width: 25rpx;
+  height: 35rpx;
+  margin-top: 27rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAYCAYAAADKx8xXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFhSURBVDhPY3BycgrLz8+fyAQEDCQAJi0tLbPQ0NC8KVOmHGRlZWWDihMGjEBQVlY268iRI/+XLl16nYODgwsqRRxITEysA2neuHHjMz4+PiGoMHHA398/HaR59+7dn8XExGShwsQBa2trX5Dm/fv3/1RSUtKBChMHgAFmfujQob8gAwwNDR2gwsQBGRkZlX379n0HaXZ2dg6HChMHhISExLdt2/YWpDkiIqIYKkwc4Obm5lu9evU9kObs7OxuUPRBpQgDNjY2jvnz558Haa6trV0MSmXMUDm84O/fv3+2bNkyV1tb28Le3j5QQUFBi6T0iQSIcy7IqfPmzTuH7FSoFG6AHDg5OTk9RAUOWdGBnABcXFwioML4ASiPwpKckZGRI1QYPyArkSNnK3FxcTmoMH5AckYGBS9a0cENlcIPQHED0jRt2rTDpBRWzLy8vIJv3759Xl9fHwFKk1BxAoCBAQCsPbSL+nrBvQAAAABJRU5ErkJggg==) no-repeat;
+  background-size: 100% 100%;
+}
+.pin .pr .rjx {
+  display: inline-block;
+  width: 25rpx;
+  height: 35rpx;
+  margin-top: 27rpx;
+  background-size: 100% 100%;
+  height: 50rpx;
+}
+.order .up {
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #dfdfdd;
+}
+.order .up image {
+  width: 630rpx;
+  height: 200rpx;
+}
+.order .up .l .p_title {
+  padding-left: 20rpx;
+  font-size: 28rpx;
+}
+.order .up .l .p_desc {
+  font-size: 40rpx;
+  display: flex;
+  padding: 30rpx 10rpx;
+  color: #afafaf;
+}
+.order .up .l .p_desc .ys {
+  padding-left: 30rpx;
+}
+.order .up .l .p_desc .bz {
+  border: 2rpx solid black;
+  padding-left: 30rpx;
+}
+.order .up .l .p_price {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+}
+.order .up .l .p_price .p_l {
+  font-size: 33rpx;
+  padding-left: 10rpx;
+  position: relative;
+  left: -20rpx;
+  color: #ffa136;
+}
+.order .up .l .p_price .p_r {
+  font-size: 40rpx;
+}
+.order .up .r {
+  display: flex;
+  flex-direction: column;
+}
+.order .down {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+}
+.order .down .cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  border: 1rpx solid #747576;
+  border-radius: 10rpx;
+  width: 150rpx;
+  text-align: center;
+  color: #454648;
+  height: 60rpx;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+}
+.order .down .gopayment {
+  background: #ffa136;
+  color: white;
+}
+.order .down .check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  border: 1rpx solid #747576;
+  border-radius: 10rpx;
+  width: 200rpx;
+  text-align: center;
+  color: #454648;
+  height: 60rpx;
+  margin-top: 10rpx;
+}
+.pay {
+  display: flex;
+  justify-content: flex-end;
+  background: #fff;
+  height: 100rpx;
+  margin-top: 20rpx;
+  align-items: center;
+}
+.pay .pay_full .price_num {
+  font-size: 40rpx;
+  color: #ff9536;
+  padding-right: 50rpx;
+}
+.pay .free {
+  font-size: 30rpx;
+}
+.btn {
+  height: 150rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+}
+.btn .sub {
+  background: #ff9536;
+  font-size: 35rpx;
+  width: 90%;
+  color: #fff;
+  border-radius: 15rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}
+.footers {
+  background: #fff;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+.footers .num {
+  display: flex;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+}
+.footers .num .order_name {
+  width: 170rpx;
+  font-size: 30rpx;
+}
+.footers .num .order_no {
+  padding-left: 80rpx;
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.footers .num .btn_copy {
+  font-size: 30rpx;
+  width: 100rpx;
+  height: 50rpx;
+  border: 2rpx solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30rpx;
+  border-radius: 5rpx;
+  margin-top: -10rpx;
+}
+.footers .method {
+  display: flex;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+}
+.footers .method .pay_way {
+  font-size: 30rpx;
+}
+.footers .method .wechat {
+  padding-left: 100rpx;
+  font-size: 30rpx;
+}
+.footers .parent {
+  display: flex;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+}
+.footers .parent .commander {
+  font-size: 30rpx;
+}
+.footers .parent .member {
+  padding-left: 100rpx;
+  font-size: 30rpx;
+}
+.footers .leage {
+  display: flex;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+}
+.footers .leage .my {
+  font-size: 30rpx;
+}
+.footers .leage .member {
+  padding-left: 158rpx;
+  font-size: 30rpx;
+}
+.footers .time {
+  display: flex;
+  padding: 0 20rpx;
+}
+.footers .time .order_time {
+  font-size: 30rpx;
+}
+.footers .time .date {
+  padding-left: 100rpx;
+  font-size: 30rpx;
+}
+.footers .time .date ._span {
+  margin-left: 10rpx;
+  font-size: 30rpx;
+}
+

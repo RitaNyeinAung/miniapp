@@ -1,0 +1,1 @@
+<view><view class="content"><block wx:for="{{sortData}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['proSort',[index]]]]]}}" class="{{['txt',(sortHead==index)?'active':'']}}" bindtap="__e">{{item}}</view></block></view></view>

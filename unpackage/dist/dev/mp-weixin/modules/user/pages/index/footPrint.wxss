@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.dl .dd {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.dl .dd .time {
+  text-indent: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 25rpx;
+  background: #f1f1f1;
+}
+.dl .dd .item-wrap {
+  border-bottom: 2rpx solid #ccc;
+  padding: 20rpx;
+  width: 100%;
+}
+.dl .dd .item-wrap.active {
+  -webkit-transform: translate(50rpx);
+          transform: translate(50rpx);
+}
+.dl .dd image {
+  width: 150rpx;
+  height: 150rpx;
+}
+.dl .dd .item {
+  padding-left: 25rpx;
+  width: 560rpx;
+  float: right;
+}
+.dl .dd .item .text {
+  font-size: 26rpx;
+  color: #333;
+  line-height: 40rpx;
+  height: 80rpx;
+}
+.dl .dd .item .Price {
+  font-size: 28rpx;
+  color: #f23030;
+  padding-top: 35rpx;
+}
+.dl .dd .item .Price .pri-member {
+  font-size: 32rpx;
+}
+

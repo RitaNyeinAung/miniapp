@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.tab-hd {
+  height: 90rpx;
+  line-height: 90rpx;
+  background: #fff;
+  display: flex;
+  text-align: center;
+}
+.tab-hd .fl {
+  width: 50%;
+}
+.tab-hd .fl .htxt {
+  display: inline-block;
+  width: 250rpx;
+  height: 100%;
+  font-size: 28rpx;
+  color: #666;
+  text-align: center;
+}
+.tab-hd .fl.active .htxt {
+  color: #d02629;
+  border-bottom: 4rpx solid #d02629;
+  box-sizing: border-box;
+  text-align: center;
+}
+.search-hd {
+  padding: 20rpx;
+  display: flex;
+  background-color: #f1f1f1;
+}
+.search-hd .search-fl {
+  width: 620rpx;
+  height: 80rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  color: #333;
+  background-size: 29rpx 29rpx;
+  outline: none;
+}
+.search-hd .button-fl {
+  padding: 0 0 0 20rpx;
+  line-height: 80rpx;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 30rpx;
+  color: #333;
+}
+.list-wrap {
+  background-color: #f1f1f1;
+}
+.list-wrap .li {
+  padding: 0 20rpx 20rpx 20rpx;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #dfdfdd;
+  border-top: 2rpx solid #dfdfdd;
+  margin-bottom: 15rpx;
+}
+.list-wrap .li .hd {
+  height: 140rpx;
+  border-bottom: 2rpx solid #dfdfdd;
+  box-sizing: border-box;
+}
+.list-wrap .li .hd .oddNumbers {
+  padding-top: 44rpx;
+}
+.list-wrap .li .hd .oddNumbers .name {
+  font-size: 25rpx;
+  color: #333;
+}
+.list-wrap .li .hd .oddNumbers .status {
+  font-size: 30rpx;
+  color: #f9781e;
+}
+.list-wrap .li .hd .time {
+  font-size: 25rpx;
+  color: #757575;
+}
+.list-wrap .li .dd {
+  padding-top: 35rpx;
+  display: flex;
+}
+.list-wrap .li .dd image {
+  width: 146rpx;
+  height: 146rpx;
+}
+.list-wrap .li .dd .text-wrap {
+  padding-left: 20rpx;
+}
+.list-wrap .li .dd .text-wrap .text {
+  font-size: 25rpx;
+  color: #333;
+  line-height: 38rpx;
+}
+.list-wrap .li .dd .text-wrap .btn-wrap {
+  padding-top: 28rpx;
+  display: flex;
+}
+.list-wrap .li .dd .text-wrap .btn-wrap .num-txt {
+  font-size: 25rpx;
+  color: #999;
+  float: left;
+  width: 370rpx;
+}
+.list-wrap .li .dd .text-wrap .btn-wrap .button {
+  width: 143rpx;
+  height: 53rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  border: none;
+  font-size: 24rpx;
+  color: #333;
+  outline: none;
+  border: 2rpx solid #757575;
+  box-sizing: border-box;
+  float: right;
+}
+

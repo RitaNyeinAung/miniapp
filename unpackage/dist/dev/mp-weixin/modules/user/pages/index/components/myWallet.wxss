@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.wallet-wrap {
+  background: #f1f1f1;
+}
+.wallet-wrap .balance-wrap {
+  background: linear-gradient(to right, #d02629, #EFB83A);
+}
+.wallet-wrap .balance-wrap .hd {
+  padding: 60rpx 20rpx 73rpx;
+  height: 112rpx;
+}
+.wallet-wrap .balance-wrap .hd .hd-port {
+  width: 112rpx;
+  height: 112rpx;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+.wallet-wrap .balance-wrap .hd .amount {
+  padding-left: 20rpx;
+}
+.wallet-wrap .balance-wrap .hd .amount .title {
+  font-size: 24rpx;
+  color: #fff;
+  padding-bottom: 20rpx;
+}
+.wallet-wrap .balance-wrap .hd .amount .number {
+  font-size: 80rpx;
+  color: #fff;
+  line-height: 100%;
+  font-family: 'Arial';
+  width: 570rpx;
+  height: 70rpx;
+}
+.wallet-wrap .balance-wrap .btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20rpx;
+  height: 110rpx;
+}
+.wallet-wrap .balance-wrap .btn-wrap .li {
+  padding: 0 60rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  margin-left: 30rpx;
+  border-radius: 4rpx;
+}
+.wallet-wrap .balance-wrap .btn-wrap .li:first-child {
+  background-color: #fff;
+  color: #d02629;
+}
+.wallet-wrap .balance-wrap .btn-wrap .li:last-child {
+  background-color: #d02629;
+  color: #fff;
+}
+.wallet-wrap .content .header {
+  height: 70rpx;
+  padding: 0 30rpx;
+  line-height: 70rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  border-top: 1rpx solid #E5E5E5;
+  border-bottom: 1rpx solid #E5E5E5;
+}
+.wallet-wrap .content .integral-wrap .inli {
+  height: 150rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30rpx;
+}
+.wallet-wrap .content .integral-wrap .inli .conFl {
+  display: flex;
+  align-items: center;
+}
+.wallet-wrap .content .integral-wrap .inli image {
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 35rpx;
+}
+.wallet-wrap .content .integral-wrap .inli .h4 {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.wallet-wrap .content .integral-wrap .inli .h6 {
+  font-size: 24rpx;
+  color: #CACACA;
+}
+.wallet-wrap .content .integral-wrap .inli .span {
+  font-size: 24rpx;
+  color: #C2AC32;
+}
+

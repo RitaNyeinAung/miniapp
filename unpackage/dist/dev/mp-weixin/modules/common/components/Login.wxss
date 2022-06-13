@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.login-popup .icon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx 0rpx;
+}
+.login-popup .icon image {
+  width: 80px;
+  height: 80px;
+}
+.login-popup .icon text {
+  font-size: 10px;
+  padding-top: 10rpx;
+}
+.login {
+  padding: 20rpx 30rpx 20rpx 30rpx;
+}
+.login button {
+  background-color: #c3996b;
+  color: white;
+  border-radius: 25px;
+  font-size: 13px;
+}
+

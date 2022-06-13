@@ -1,0 +1,1 @@
+<view class="open"><view class="icon"><image src="/static/images/common/zy.png" alt></image></view><view data-event-opts="{{[['tap',[['initAgreement',['$event']]]]]}}" class="btn" bindtap="__e">填写资料，马上开店</view><view data-event-opts="{{[['tap',[['must',['$event']]]]]}}" class="button" bindtap="__e">开店须知/入驻进度查询</view></view>

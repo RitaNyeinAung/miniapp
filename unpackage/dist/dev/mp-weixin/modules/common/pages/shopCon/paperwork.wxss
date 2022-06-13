@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.paper-container {
+  background-color: #fff;
+}
+.h4 {
+  font-size: 32rpx;
+  text-align: center;
+  margin: 1.5rpx 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 30rpx 20rpx;
+  border-bottom: 1rpx solid #D1D1D1;
+  line-height: 50rpx;
+}
+.paper-p {
+  font-size: 28rpx;
+  padding: 30rpx 20rpx;
+  line-height: 50rpx;
+  border-bottom: 1rpx solid #D1D1D1;
+}
+.paper-p .paper-span {
+  font-size: 28rpx;
+  line-height: 50rpx;
+}
+.h6 {
+  font-size: 28rpx;
+  color: red;
+  padding: 30rpx 20rpx;
+  line-height: 50rpx;
+}
+

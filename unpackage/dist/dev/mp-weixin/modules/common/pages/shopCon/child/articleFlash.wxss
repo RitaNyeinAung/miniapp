@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.flash-wrap {
+  background: #f2f2f2;
+  margin: 330rpx 0 0 0;
+}
+.flash-wrap .flash {
+  background: #ffffff;
+  margin-bottom: 5rpx;
+  margin-top: -10rpx;
+  display: flex;
+}
+.flash-wrap .flash .flash_logo {
+  display: flex;
+}
+.flash-wrap .flash .flash_logo ._span {
+  padding: 20rpx 0rpx 17rpx 15rpx;
+  font-size: 25rpx;
+}
+.flash-wrap .flash .flash_logo image {
+  width: 75rpx;
+  padding: 15rpx;
+  height: 75rpx;
+}
+.flash-wrap .flash .up-news {
+  border-right: 2rpx dotted #b6b0b0;
+  border-left: 2rpx dotted #b6b0b0;
+  margin-top: 9rpx;
+  margin-bottom: 9rpx;
+  width: 570rpx;
+  overflow: hidden;
+}
+.flash-wrap .flash .up-news .scroll_box {
+  left: 25rpx;
+  transition: 1s all ease;
+  position: relative;
+  width: 405rpx;
+  height: 55rpx;
+}
+.flash-wrap .flash .up-news .scroll_box .scroll_box-li {
+  height: 55rpx;
+  line-height: 55rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  cursor: pointer;
+}
+.flash-wrap .flash .up-news .scroll_box .scroll_box-li:hover {
+  color: red;
+}
+.flash-wrap .flash .More {
+  margin-top: 5rpx;
+  font-size: 28rpx;
+  padding: 17rpx;
+}
+

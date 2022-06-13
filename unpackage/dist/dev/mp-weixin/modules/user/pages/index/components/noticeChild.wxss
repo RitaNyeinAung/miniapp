@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.NoticeChild {
+  border-top: 2rpx solid #f1f1f1;
+}
+._img {
+  width: 100%;
+}
+image {
+  width: 100%;
+}
+.image {
+  width: 100%;
+}
+.contentchioce {
+  width: 100% !important;
+  padding: 20rpx;
+}
+.contentchioce .title {
+  font-size: 30rpx;
+  padding: 10rpx 0 30rpx 0;
+  font-weight: bold;
+}
+.contentchioce .body {
+  width: 100% !important;
+}
+.contentchioce .body ._p {
+  width: 100% !important;
+  line-height: 50rpx !important;
+  padding: 20rpx 0;
+}
+.contentchioce .body ._img {
+  width: 100%;
+}
+.contentchioce .body image {
+  width: 100%;
+}
+.contentchioce .body .image {
+  width: 100%;
+}
+.contentchioce .image {
+  width: 100%;
+}
+

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.all-hi {
+  height: 100%;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.puzzle_order {
+  background-color: #f1f1f1;
+}
+.puzzle_order .topnav {
+  border-top: 1rpx solid #dfe3e4;
+  width: 100%;
+  background: white;
+}
+.puzzle_order .topnav .ul {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  height: 100rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.puzzle_order .topnav .ul .li {
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 26rpx;
+  color: #3c3c3c;
+}
+.puzzle_order .topnav .ul .liactive {
+  font-size: 28rpx;
+  color: #66b1ff;
+}
+.puzzle_order .errorcss {
+  text-align: center;
+  margin-top: 50%;
+  font-size: 50rpx;
+}
+.puzzle_order .top {
+  background: #fff;
+  height: 100rpx;
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  position: relative;
+}
+.puzzle_order .top .title {
+  font-size: 30rpx;
+}
+.puzzle_order .top .status {
+  font-size: 30rpx;
+  color: #ff9536;
+}
+.puzzle_order .cell {
+  display: flex;
+  padding: 20rpx;
+}
+.puzzle_order .cell .l image {
+  height: 200rpx;
+  width: 200rpx;
+}
+.puzzle_order .cell .r {
+  padding: 0 20rpx 0 30rpx;
+}
+.puzzle_order .cell .r .r_1 {
+  display: flex;
+}
+.puzzle_order .cell .r .r_1 .title {
+  font-size: 25rpx;
+}
+.puzzle_order .cell .r .r_1 .num {
+  font-size: 25rpx;
+  position: absolute;
+  right: 20rpx;
+}
+.puzzle_order .cell .r .r_2 {
+  color: #a9a6a6;
+  font-size: 25rpx;
+}
+.puzzle_order .cell .r .r_3 {
+  font-size: 25rpx;
+}
+.puzzle_order .cell .r .r_3 .target {
+  color: #a9a6a6;
+  font-size: 25rpx;
+}
+.puzzle_order .cell .r .r_3 .target .r_3-num {
+  color: #ff9536;
+  font-size: 25rpx;
+}
+.puzzle_order .cell .r .r_3 .peo {
+  color: #a9a6a6;
+  font-size: 25rpx;
+}
+.puzzle_order .cell .r .r_3 .peo .peo-peo {
+  color: #ff9536;
+  font-size: 25rpx;
+}
+.puzzle_order .cell .r .r_4 {
+  color: #a9a6a6;
+  font-size: 25rpx;
+}
+.puzzle_order .cell .r .r_4 .r_4-time {
+  color: #ff9536;
+  font-size: 25rpx;
+}
+.puzzle_order .cell .r .r_5 {
+  font-size: 20rpx;
+}
+.puzzle_order .footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20rpx;
+  background: #fff;
+}
+.puzzle_order .footer .f_l {
+  font-size: 30rpx;
+}
+.puzzle_order .footer .f_l .pan1 {
+  font-size: 30rpx;
+}
+.puzzle_order .footer .f_r {
+  font-size: 30rpx;
+}
+.puzzle_order .footer .f_r .pan2 {
+  font-size: 30rpx;
+}
+

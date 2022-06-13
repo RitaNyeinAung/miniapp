@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.head {
+  background: #fff;
+  width: 100%;
+  overflow-x: auto;
+  height: 90rpx;
+  border-bottom: 1rpx solid #CBCBCB;
+}
+.headers {
+  padding-top: 25rpx;
+}
+.headers .header-li {
+  font-size: 26rpx;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  display: table-cell;
+}
+.headers .avtive {
+  color: #d02629;
+}
+.allSelect {
+  background: #ffffff;
+}
+.allSelect .details {
+  padding: 40rpx 30rpx 20rpx 30rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+.allSelect .details image {
+  width: 29.5rpx;
+  height: 30rpx;
+}
+.allSelect .details .about_article {
+  padding: 40rpx 0rpx 40rpx 0rpx;
+}
+.allSelect .details .about_article .h4 {
+  padding-bottom: 40rpx;
+}
+.allSelect .details .about_article .articleImg {
+  width: 200rpx;
+}
+.allSelect .details .about_article .p {
+  float: right;
+  width: 450rpx;
+  line-height: 32rpx;
+  padding-top: 5rpx;
+}
+.allSelect .inner_article .up {
+  text-align: center;
+  padding: 30rpx 0rpx 50rpx 0rpx;
+}
+.allSelect .inner_article .up .up-h4 {
+  padding-bottom: 25rpx;
+}
+.allSelect .inner_article .down {
+  padding: 20rpx;
+}
+.allSelect .inner_article .down .tolink:hover {
+  color: #d02629;
+}
+.allSelect .inner_article .down .viewer {
+  float: right;
+}
+.allSelect .inner_article .down .viewer image {
+  width: 29.5rpx;
+  height: 30rpx;
+}
+.allSelect .inner_article .down .down-p {
+  padding-top: 50rpx;
+}
+.allSelect .inner_article .skip {
+  padding: 40rpx 10rpx 40rpx 10rpx;
+  border-top: 100rpx solid #efeded;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "在线留言",
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input"
+  }
+}

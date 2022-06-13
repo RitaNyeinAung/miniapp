@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.search {
+  position: fixed;
+  width: 100vw;
+  z-index: 100000;
+}
+.search-page {
+  background-color: white;
+  position: absolute;
+  height: 100rpx;
+  top: 0;
+  width: 100vw;
+  min-height: 100vh;
+  z-index: 1000;
+}
+.search-page .search-page-header {
+  height: 80rpx;
+  padding: 10rpx 30rpx;
+  background-color: #ee1111;
+}
+.Search-content .hot,
+.Search-content .hit {
+  padding: 14rpx 20rpx 0;
+}
+.Search-content .hot .title,
+.Search-content .hit .title {
+  font-size: 30rpx;
+  color: #999;
+  padding: 30rpx 0;
+}
+.Search-content .hot .def,
+.Search-content .hit .def {
+  font-size: 30rpx;
+  color: #999;
+  text-align: center;
+}
+.Search-content .hot .clearfix,
+.Search-content .hit .clearfix {
+  display: flex;
+}
+.Search-content .hot .fll,
+.Search-content .hit .fll {
+  height: 73rpx;
+  width: 235rpx;
+  padding: 0 25rpx;
+  font-size: 30rpx;
+  color: #757575;
+  line-height: 73rpx;
+  text-align: center;
+  background: #f1f1f1;
+  border-radius: 10rpx;
+  margin-right: 17rpx;
+  margin-top: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.Search-content .hot .fl:nth-child(3n),
+.Search-content .hit .fl:nth-child(3n) {
+  margin-right: 0;
+}
+.Search-content .hit {
+  padding-bottom: 30rpx;
+}
+.Search-content .hot .title {
+  padding-left: 40rpx;
+  position: relative;
+}
+.Search-content .hot .title image {
+  width: 25rpx;
+  height: 31rpx;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -15.5rpx;
+  background-size: 100% 100%;
+}
+.Search-content .btn {
+  width: 710rpx;
+  height: 78rpx;
+  margin: 0 auto;
+  display: block;
+  font-size: 30rpx;
+  color: #b3b3b3;
+  border: 2rpx solid #b3b3b3;
+  border-radius: 10rpx;
+  background: #fff;
+}
+

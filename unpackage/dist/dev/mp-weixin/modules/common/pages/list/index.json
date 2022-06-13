@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "商品列表",
+  "usingComponents": {
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}
